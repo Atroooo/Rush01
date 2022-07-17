@@ -6,13 +6,13 @@
 /*   By: lcompieg <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/17 21:34:33 by lcompieg          #+#    #+#             */
-/*   Updated: 2022/07/17 21:39:45 by lcompieg         ###   ########lyon.fr   */
+/*   Updated: 2022/07/17 21:52:13 by lcompieg         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	is_valid(int tab[6][6], int x, int y);
+int		is_valid(int tab[6][6], int x, int y);
 void	ft_putchar(char c);
 
 int	str_len(char *str)
